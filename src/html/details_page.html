@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/details_page.css" />
+		<script src="../../../jquery-1.12.0.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="../js/details_page.js"></script>
+		
+	</head>
+	<body>
+		<div id="top">	 
+	
+			<div id="top_warp" >
+				<div id="top_text" >
+					<span id="top_phone"><a href="#">手机版</a></span>
+					<span>|</span>
+					<span><a href="#">市场信用</a></span>
+					<span>|</span>
+				</div>
+				<div id="top_weather">
+					<span>义乌</span>
+					<span id="top_weather_img">
+						<img src="../css/img/zhongyu.png" height="16px" />
+					</span>
+					<span class="topimg_w"></span>
+					<span>28 ~ 23℃</span>
+				</div>
+				<div id="top_item">
+					<ul>
+						<li id="top_buyCar">
+							<span class="top_buyCar_"><a href="#">购物车</a></span>
+							
+						</li>
+						<li id="top_user">
+							<span><a href="#">用户中心</a></span>
+						
+						</li>					
+						<li id="top_customerService">
+							<span class="top_customerService_">
+								<a href="#">客户服务</a> 
+								<em><img src="../css/img/market-select.jpg" no-repeat></em>								
+								<div class="khfw" style="display: none;">
+									<div>
+										<p id="p1"> 
+											<span><a href="#">帮助中心</a></span>
+											<span><a href="#">意见反馈</a></span>
+										</p>
+										<p id="p2">
+											<span>0579-81530000</span>
+											<br>
+											<em>(08:30-22:00)</em>
+										</p>
+										<p id="p3">
+											<span>kefu@yiwugou.com</span>
+										</p>
+									</div>	
+								</div>
+							</span>							
+						</li>
+						<li id="top_language_list">		
+							<div>
+								<span>中文</span>	
+								<i><img src="../css/img/market-select.jpg" no-repeat></i>
+								<ul>
+									<li><a href="#">English</a></li>
+									<li><a href="#">Russian</a></li>
+									<li><a href="#">Arabic</a></li>
+									<li><a href="#">Spanish</a></li>
+									<li><a href="#">French</a></li>
+								</ul>
+							</div>
+						</li>
+					
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+		<div id="search">
+			<div id="To_search">
+				<div id="search_logo">
+					<a href="#"><img src="../css/img/logo.png"></a>
+					<span>分站</span>
+				</div>
+				<div class="fz">
+					<h4>全国专业市场</h4>
+					<ul id="u1">
+						<li><span><a href="#">新疆</a></span></li>
+						<li><span><a href="#">云中</a></span></li>
+						<li><span><a href="#">金桥</a></span></li>
+						<li><span><a href="#">遵义</a></span></li>
+						<li><span><a href="#">速联</a></span></li>
+						<li><span><a href="#">梁山</a></span></li>
+						<li><span><a href="#">枣庄</a></span></li>
+						<li><span><a href="#">秦东</a></span></li>
+						<li><span><a href="#">湘潭</a></span></li>
+						<li><span><a href="#">庆云</a></span></li>
+						<li><span><a href="#">莱阳</a></span></li>
+						<li><span><a href="#">金田</a></span></li>
+						<li><span><a href="#">安阳</a></span></li>
+						<li><span><a href="#">承德</a></span></li>
+						<li><span><a href="#">龙水</a></span></li>
+						<li><span><a href="#">三条</a></span></li>
+						<li><span><a href="#">内蒙</a></span></li>
+						<li><span><a href="#">房山</a></span></li>
+						<li><span><a href="#">亿都</a></span></li>
+						<li><span><a href="#">鸢都</a></span></li>
+						<li><span><a href="#">广元</a></span></li>
+						<li><span><a href="#">苏州</a></span></li>
+						<li><span><a href="#">南宁</a></span></li>
+						<li><span><a href="#">赣南</a></span></li>
+						<li><span><a href="#">和道</a></span></li>
+						<li><span><a href="#">海城</a></span></li>
+						<li><span><a href="#">兰州</a></span></li>
+					</ul>
+					<h4>海外市场</h4>
+					<ul id="u2">
+						<li>
+							<p>
+								<span><a href="#">Japan</a></span>
+								<span><a href="#">Russian</a></span>
+								<span><a href="#">Korea</a></span>
+							</p>
+							<p>
+								<span><a href="#">Spain</a></span>
+								<span><a href="#">Italy</a></span>
+								<span><a href="#">Mexico</a></span>
+							</p>
+							<p>
+								<span><a href="#">Morocco</a></span>
+							</p>
+						</li>
+					</ul>
+				</div>				
+				<div id="search_search">
+					<span id="xiala">
+							<ul>
+								<li>搜全部</li>
+								<li>搜商品</li>
+								<li>搜商铺</li>
+							</ul>
+					</span>
+					<input type="text" />
+					<span id="search_pt" title="点击上传图片就可以搜索啦">
+					</span>
+					<span id="search_p3"><a href="#">搜索</a></span>
+				</div>
+				<div id="search_sign">
+					<span id="land">
+						<i></i>
+						<span class="span1"><a href="login.html"  target=_blank>登陆</a></span>|<span><a href="register.html"  target=_blank>注册</a></span>
+					</span>
+					<span id="RankingList">
+						<i></i>
+						排行榜
+					</span>
+				</div>
+			</div>				
+		</div>	
+		
+		<div id="frame">
+			<div id="frame_warp">
+				<div id="frame_left">
+					<ul>
+						<li id="homePage">首页</li>
+						<li id="shops">
+							商铺商品
+							<i><img src="../css/img/market-select.jpg"></i>
+							<div id="shops_list">
+								<ul class="list_ul">
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城一区</a></p>
+										<p>
+											<span><a href="product_details.html" target=_blank>女装</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul1">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城二区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul2">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城三区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul3">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城四区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul4">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城五区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul5">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城六区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul6">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城七区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul7">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城八区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul8">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城九区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul9">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城十区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul10">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+									<li class="list_li">
+										<p><a href="#">义乌国际商贸城十一区</a></p>
+										<p>
+											<span><a href="#">玩具</a></span>
+											<span><a href="#">珠宝首饰</a></span>
+											<span><a href="#">仿真花</a></span>
+											<span><a href="#">装饰工艺</a></span>
+											<span><a href="#">相框</a></span>
+										</p>
+										<ul id="list_li_ul11">
+											<li>
+												<p>一层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>二层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>三层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+											<li>
+												<p>四层</p>
+												<p>
+													<span><a href="#">玩具</a></span>
+													<span><a href="#">珠宝首饰</a></span>
+													<span><a href="#">仿真花</a></span>
+												</p>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li id="cheap">巨便宜</li>
+						<li id="forum">论坛</li>
+					</ul>
+				</div>
+				<div id="frame_right">
+					<span id="fire">
+						<a href="#">众筹</a>
+						<i><img src="../css/img/005558h2i4jew2wi3wes0w.gif"></i>
+					</span>
+					<span><a href="#">直通车</a></span>
+					<span><a href="#">爱进口</a></span>
+					<span><a href="#">招聘</a></span>
+					<span id="list1">
+						<a href="#">
+							采购<img src="../css/img/market-select.jpg">
+						</a>
+						<ul>
+							<li>阳光采购</li>
+						</ul>
+					</span>
+					<span><a href="#">投诉处理</a></span>
+					<span><a href="#">经侦</a></span>
+					<span><a href="#">转租转让</a></span>
+					<span><a href="#">展会</a></span>
+					<span><a href="#">市场地图</a></span>
+					<span id="list2">
+						<a href="#">
+						外贸服务<img src="../css/img/market-select.jpg">
+						</a>
+						<ul>
+							<li><a href="#">服务平台</a></li>
+							<li><a href="#">联网平台</a></li>
+							<li><a href="#">进出口公司</a></li>
+							<li><a href="#">翻译</a></li>
+							<li><a href="#">国际货运</a></li>
+						</ul>
+					</span>
+					<span id="list3">
+						<a href="#">
+							商铺服务<img src="../css/img/market-select.jpg">
+						</a>
+						<ul>
+						<li><a href="#">泊车位办理</a></li>
+						<li><a href="#">金融服务</a></li>
+						<li><a href="#">第三方服务</a></li>
+						<li><a href="#">商铺代运营</a></li>
+						<li><a href="#">义乌购执照</a></li>
+						<li><a href="#">金译通</a></li>
+						<li><a href="#">商标注册</a></li>
+						<li><a href="#">更多>></a></li>
+					</ul>
+					</span>
+					
+				</div>
+			</div>
+		</div>
+		<div id="botton">
+			<div id="your_position">
+				<span><a href="#">首页</a></span>
+				>
+				<span><a href="#">商铺商品</a></span>
+				>
+				<span><a href="#">义乌篁园服装市场</a></span>
+				>
+				<span><a href="#">3楼</a></span>
+				>
+				<span><a href="#">女装</a></span>
+				>
+				<span><a href="#">方老爷服饰</a></span>
+			</div>
+			<div id="notice">
+				<div id="shops_not">
+					<h3>商铺公告</h3>
+					<span> 简单 大方 不挑人 颜色超美 无色差 面料超级舒服 手感好 版型无敌赞 好货不多说···精力有限无法一一上款，欢迎来篁园市场三楼Y3-1005，本人在小店等你，喵~？微信号15958485301</span>
+				</div>
+				<div id="shops_ifm">
+					<h3>商铺信息</h3>
+					<a href="#" title="方老爷服饰">方老爷服饰</a>
+					<p>
+						<span>商  位 号：</span>
+						<span>Y3-1005</span>
+					</p>
+					<p>
+						<span class="span1">商铺地址：</span>
+						<span class="span2">义乌篁园服装市场19门3楼15街Y3-1005,Y3-1006,Y3-1007,Y3-0991,Y3-0992</span>
+					</p>
+				</div>
+				<div id="shops_hos">
+					<h3>联系商家</h3>
+					<ul>
+						<li>
+							<span>联  系 &nbsp;人：</span>
+							<span>方琳</span>
+						</li>
+						<li>
+							<span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：</span>
+							<span>15958485301</span>
+						</li>
+						<li>
+							<span>客&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服1：</span>
+							<span><a href="#"><img src="../img/button_11.gif"></a></span>
+						</li>
+						<li>
+							<span>商铺留言：</span>
+							<span><a href="#">点击留言</a></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="details">
+				<div class="details_top">
+					<div class="left"><h3>2015秋季新款韩版宽松袖子针织衫</h3></div>
+					<div class="right">
+						<a href="#">English</a>|<a href="#" title="举报此商品">举报此商品</a>
+					</div>
+				</div>
+				<div id="buyCar_">
+					<div class="pt">
+						
+							<ul class="p1">
+								<li><img src="../img/46c19eab526eacba8f27618a97b7d77b.jpg@350w_350h (1).jpg"></li>
+								<li><img src="../img/9b0a352032d29cceaac97d5df6347578.jpg@350w_350h.jpg"></li>
+								<li><img src="../img/a88362e19ed1a722b2cf0d413dec742b.jpg@350w_350h.jpg"></li>
+								<li><img src="../img/63c4349c22ced0e27bff5be2c5b533ea.jpg@350w_350h.jpg"></li>
+							</ul>
+						
+						
+							<ul class="p2">
+								<li><img src="../img/46c19eab526eacba8f27618a97b7d77b.jpg@350w_350h (1).jpg"></li>
+								<li><img src="../img/9b0a352032d29cceaac97d5df6347578.jpg@350w_350h.jpg"></li>
+								<li><img src="../img/a88362e19ed1a722b2cf0d413dec742b.jpg@350w_350h.jpg"></li>
+								<li><img src="../img/63c4349c22ced0e27bff5be2c5b533ea.jpg@350w_350h.jpg"></li>
+							</ul>
+						
+						<p>
+							<span><img src="../img/ico-pro-ewm.png">分享到朋友圏</span>
+							<span><img src="../css/img/ico_pro_view_03.jpg">加入收藏夹</span>
+						</p>
+					</div>
+					<div class="price">
+						<p class="p1">
+							<span>起批量(件)</span>
+							<span>义乌价</span>
+						</p>
+						<p class="p2">
+							<span>≥1</span>
+							<span>
+								<i>¥</i><em>45</em><i>.00</i>/件
+								<
+							</span>
+						</p>
+						<ul class="ul1">
+							<li>
+								<i>供货数量：</i>
+								<span>1000件</span>
+							</li>
+							<li>
+								<i>配送至：</i>
+								<span><a href="#">浙江</a>快递<em>¥5.00</em></span>	
+							</li>
+							<li>
+								<i>颜色</i>
+								<span>灰色 <em>-</em><i>0</i><em>+</em></span>
+							</li>
+							<li>
+								<i>颜色</i>
+								<span>黑色 <em>-</em><i>0</i><em>+</em></span>
+							</li>
+							<li>
+								<i>颜色</i>
+								<span>酒色 <em>-</em><i>0</i><em>+</em></span>
+							</li>
+							<li>
+								<i>颜色</i>
+								<span>橘色 <em>-</em><i>0</i><em>+</em></span>
+							</li>
+						</ul>
+						<ul>
+							<p><span>已选订单</span><span>数量</span></p>
+						</ul>
+						<table>
+							<tr>
+								<td></td>
+								<td>数量</td>
+								<td></td>
+								<td>单价</td>
+								<td></td>
+								<td>合计(不含运费)</td>
+							</tr>
+							<tr>
+								<td>我要买</td>
+								<td></td>
+								<td>x</td>
+								<td></td>
+								<td>=</td>
+								<td></td>
+							</tr>
+						</table>
+						<p><a href="#"><img src="../css/img/ico-price-thk.png">本产品采购属于商业贸易行为。</a></p>
+						<p><img src="../css/img/ico-cxg.png">义乌购诚信交易保障体系,呵护每一笔交易安全<a href="#">详情</a></p>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		
+		</div>
+		
+	</body>
+</html>

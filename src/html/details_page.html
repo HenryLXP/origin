@@ -3,12 +3,17 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>详情页</title>
+		<link rel="stylesheet" href="../css/zoom.css" type="text/css" />
 		<link rel="stylesheet" type="text/css" href="../css/base.css" />
 		<link rel="stylesheet" type="text/css" href="../css/common.css" />
 		<link rel="stylesheet" type="text/css" href="../css/details_page.css" />
-		<script src="../../../jquery-1.12.0.js"></script>
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/base.js"></script>
 		<script src="../js/common.js"></script>
+		
 		<script src="../js/details_page.js"></script>
+		<script src="../js/lzoom.js"></script>
+		
 		
 	</head>
 	<body>
@@ -32,7 +37,7 @@
 				<div id="top_item">
 					<ul>
 						<li id="top_buyCar">
-							<span class="top_buyCar_"><a href="#">购物车</a></span>
+							<span class="top_buyCar_"><a href="buycar.html">购物车</a></span>
 							
 						</li>
 						<li id="top_user">
@@ -743,7 +748,7 @@
 					</p>
 					<p>
 						<span class="span1">商铺地址：</span>
-						<span class="span2">义乌篁园服装市场19门3楼15街Y3-1005,Y3-1006,Y3-1007,Y3-0991,Y3-0992</span>
+						<span class="span2">义乌篁园服装市场19门3楼15街Y3-1005</span>
 					</p>
 				</div>
 				<div id="shops_hos">
@@ -770,20 +775,23 @@
 			</div>
 			<div id="details">
 				<div class="details_top">
-					<div class="left"><h3>2015秋季新款韩版宽松袖子针织衫</h3></div>
+					<div class="left"><h3 id="cook_name">2015秋季新款韩版宽松袖子针织衫</h3></div>
 					<div class="right">
 						<a href="#">English</a>|<a href="#" title="举报此商品">举报此商品</a>
+						<!--<div id="comeback">回到顶部</div>-->
 					</div>
 				</div>
 				<div id="buyCar_">
 					<div class="pt">
 						
-							<ul class="p1">
-								<li><img src="../img/46c19eab526eacba8f27618a97b7d77b.jpg@350w_350h (1).jpg"></li>
-								<li><img src="../img/9b0a352032d29cceaac97d5df6347578.jpg@350w_350h.jpg"></li>
-								<li><img src="../img/a88362e19ed1a722b2cf0d413dec742b.jpg@350w_350h.jpg"></li>
-								<li><img src="../img/63c4349c22ced0e27bff5be2c5b533ea.jpg@350w_350h.jpg"></li>
+							<ul class="p1" >
+								<li id="zoom_pt" style="display: block;"><img src="../img/46c19eab526eacba8f27618a97b7d77b.jpg@350w_350h (1).jpg"></li>
+								<li id="zoom_pt1" style="display: none;"><img src="../img/9b0a352032d29cceaac97d5df6347578.jpg@350w_350h.jpg"></li>
+								<li id="zoom_pt2" style="display: none;"><img src="../img/a88362e19ed1a722b2cf0d413dec742b.jpg@350w_350h.jpg"></li>
+								<li id="zoom_pt3" style="display: none;"><img src="../img/63c4349c22ced0e27bff5be2c5b533ea.jpg@350w_350h.jpg"></li>
 							</ul>
+							
+							
 						
 						
 							<ul class="p2">
@@ -806,67 +814,123 @@
 						<p class="p2">
 							<span>≥1</span>
 							<span>
-								<i>¥</i><em>45</em><i>.00</i>/件
-								<
+								<i id="cook_price">¥45.00/件</i>
+								
 							</span>
 						</p>
 						<ul class="ul1">
 							<li>
-								<i>供货数量：</i>
+								<i class="itop">供货数量：</i>
 								<span>1000件</span>
 							</li>
-							<li>
-								<i>配送至：</i>
-								<span><a href="#">浙江</a>快递<em>¥5.00</em></span>	
+							<li class="li2">
+								<i class="itop">配送至：</i>
+								<span class="span2"><a href="#">浙江<img src="../img/ico_down_img.jpg"></a>快递<em>¥5.00</em></span>	
 							</li>
-							<li>
-								<i>颜色</i>
-								<span>灰色 <em>-</em><i>0</i><em>+</em></span>
+							<li class="li3">
+								<i class="itop">颜色:</i>
+								<span><i class="i1">灰色 </i><em class="padd1" class="click_">-</em><input type="text" class="i2"  value="0"><em class="plus1" class="click_">+</em></span>
 							</li>
-							<li>
-								<i>颜色</i>
-								<span>黑色 <em>-</em><i>0</i><em>+</em></span>
+							<li class="li4">
+								<i class="itop"></i>
+								<span><i class="i1">黑色</i> <em class="padd2" class="click_">-</em><input type="text" class="i2" value="0"><em class="plus2" class="click_">+</em></span>
 							</li>
-							<li>
-								<i>颜色</i>
-								<span>酒色 <em>-</em><i>0</i><em>+</em></span>
+							<li class="li5">
+								<i class="itop"></i>
+								<span><i class="i1">酒色</i> <em class="padd3" class="click_">-</em><input type="text" class="i2" value="0"><em class="plus3" class="click_">+</em></span>
 							</li>
-							<li>
-								<i>颜色</i>
-								<span>橘色 <em>-</em><i>0</i><em>+</em></span>
+							<li class="li6">
+								<i class="itop"></i>
+								<span><i class="i1">橘色</i> <em class="padd4" class="click_">-</em><input type="text" class="i2" value="0"><em class="plus4" class="click_">+</em></span>
 							</li>
 						</ul>
-						<ul>
-							<p><span>已选订单</span><span>数量</span></p>
+						<ul id="yc_count">
+							<p><span id="produce">已选订单</span><span id="number">数量</span></p>
+							<li class="li1"><span>灰色</span><i id="aa1">0</i></li>
+							<li class="li2"><span>黑色</span><i id="aa2">0</i></li>
+							<li class="li3"><span>酒色</span><i id="aa3">0</i></li>
+							<li class="li4"><span>橘色</span><i id="aa4">0</i></li>
 						</ul>
-						<table>
+						<table id="table">
 							<tr>
 								<td></td>
 								<td>数量</td>
 								<td></td>
 								<td>单价</td>
 								<td></td>
-								<td>合计(不含运费)</td>
+								<td class="td4">合计(不含运费)</td>
 							</tr>
 							<tr>
-								<td>我要买</td>
-								<td></td>
+								<td>我要买:</td>
+								<td class="td2" id="shuliang">0</td>
 								<td>x</td>
-								<td></td>
+								<td>45</td>
 								<td>=</td>
-								<td></td>
+								<td class="td4" id="zongjia">45</td>
 							</tr>
+							<tr id="buycar">
+								<td><a>加入购物车</a></td>
+								
+							</tr> 
 						</table>
+						<div id="ckbox">成功加入购物车</div>
 						<p><a href="#"><img src="../css/img/ico-price-thk.png">本产品采购属于商业贸易行为。</a></p>
 						<p><img src="../css/img/ico-cxg.png">义乌购诚信交易保障体系,呵护每一笔交易安全<a href="#">详情</a></p>
 					</div>
-					
+										
 					
 					
 				</div>
+				<div id="pt_">
+					<ul class="ul1">
+						<li class="li1"><span>详情信息</span></li>
+						<li class="li2"><a href="#">用户评价</a><a href="#">交易记录</a></li>
+					</ul>
+					<p class="p3_"><span>风格:&nbsp;韩版</span><span class="p2">款式:&nbsp;女士毛衣</span><span>商品重量:&nbsp;0.28&nbsp;kg/件</span></p>
+					<ul>
+						<li>本店实体批发，一件代发，微信15958485301</li>
+						<li>商品详情</li>
+						<li>尺码：胸围108cm 衣长53cm </li>
+						<li>模特展示</li>
+					</ul>
+					<p class="p">模特图均为店长自己实物拍摄，盗图必究，请慎重。</p>
+					<p><img src="../img/2643de088f8d2531d23bda4506ec8f8a.jpg"></p>
+					<p><img src="../img/74c0188a2ee11f8b867d9728ba0e340f.jpg@700w.jpg"></p>
+					<p> <img src="../img/74c0188a2ee11f8b867d9728ba0e340f.jpg@700w.jpg"></p>
+					<p><img src="../img/f3a7fb8ccc3a2d79a6ce75f1e2ff2161.jpg">  </p>
+					<p class="p">实物展示</p>
+					<p><img src="../img/3063d2007b1bd35206259c8588b63a9b.jpg"></p>
+					<p> <img src="../img/dfe38511f99f58b16ef8be7f91e7bd0a.jpg"></p>
+					<p> <img src="../img/c18035d8df4e108d95e19739b3a0f567.jpg"></p>
+					<p> <img src="../img/60ec35f7b3ff7db47e2d1258842ce313.jpg"></p>
+					<p class="p">细节展示</p>
+					<p><img src="../img/a88362e19ed1a722b2cf0d413dec742b.jpg@350w_350h.jpg"></p>
+					<p><img src="../img/eae03b3c59927993f2c579cdec90b575.jpg"></p>
+					<p><img src="../img/63c4349c22ced0e27bff5be2c5b533ea.jpg@350w_350h.jpg"></p>
+					<p class="p11">您最近浏览的商品</p>
+					<ul class="lastul">
+						<li class="li1">
+							<a href="#" class="a1"><img src="../img/5ed77f988322972f447307e6dbcb31a2.JPG@128w_128h.jpg"></a>
+							<a href="#">2016百搭后背蕾丝蝴蝶花款钉钻款背心钉珠吊带打底衫女夏包邮</a>
+							<p><span>24.90</span>元/件</p>
+						</li>
+						<li class="li2">
+							<a href="#" class="a1"><img src="../img/60ad5fcc66a4d40f182f88b35093f1b3.jpg@128w_128h.jpg"></a>
+							<a href="#">烫钻装饰 拉丝面料烫底牛皮材质透气运动鞋</a>
+							<p>批发价与商家联系</p>
+						</li>
+					</ul>
+				</div>
+				
 			</div>
-		
+			
+			
 		</div>
-		
+		<div class="clr"></div>
+		<div id="footer">
+					<div>
+						<p>© 2015 Yiwugou.com 版权所有 增值电信业务经营许可证:<a href="#">浙B2-20110340</a></p>
+					</div>  
+		</div>
 	</body>
 </html>

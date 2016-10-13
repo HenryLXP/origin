@@ -1,0 +1,62 @@
+/*font{12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif}*/
+#top a,#top{color: grey;}
+#wrap_top{width:100%;height: 30px;border-bottom: 1px solid gainsboro;}
+#top{width: 950px;height: 31px;margin:0 auto;line-height: 30px;font-size: 12px;}
+#top_text{width: 138px;height: 30px;float: left;}
+#top_phone{background: url(img/ico_mob.jpg) no-repeat ;padding-left: 12px;}
+#top_left{float: left;}
+#top_right{float: right;}
+
+
+#lg{width:100%;height:72px;}
+#lg .pt{width:950px;height: 72px;margin: 0 auto;}
+#lg .pt img{padding-top: 10px;}
+
+#step{width: 100%;height: 48px;background:gainsboro;}
+#step ul{width: 660px;height: 48px;margin: 0 auto;}
+#step ul li{width: 660px;height: 22px;}
+#step ul .li1 span{display:inline-block;width: 126px;height: 22px;text-align: center;line-height: 22px;}
+#step ul .li1 .span1{color: gray;}
+#step ul .li1{font-size: 12px;}
+#step ul .li2{overflow: hidden;}
+
+#botton{width: 100%;height: 100%;background: ghostwhite;}
+#my_car{width: 950px;height: 29px;margin: 0 auto;padding-top: 20px;}
+#my_car .left{width: 310px;height: 27px;float: left;font-size: 18px;font-weight: 700;margin-left: 15px;}
+#my_car .right{width: 300px;height: 27px;float: right;font-size: 12px;text-align: right;}
+#my_car .right a{color: gray;}
+#del{width: 950px;height: 32px;border-top: 2px solid gray;background: ghostwhite;margin: 0 auto;line-height: 32px;}
+#del .span1{padding-left: 222px;}
+#del .span2{padding-left: 242px;}
+#del .span3{padding-left: 80px;}
+#del .span4{padding-left: 80px;}
+#del .span5{padding-left: 80px;}
+#del input{margin-left: 15px;}
+
+
+
+/*#box{width: 950px;height:auto;margin: 0 auto;border: 1px solid gray;font-size: 12px;text-align: center;line-height: 200px;font-size: 35px;background: darkgray;color: whitesmoke;}*/
+
+#goods_list{width: 950px;height: auto;margin: 0 auto;border: 1px solid gray;font-size: 12px; }
+
+#goods_list .goods1{width: 928px;height: 66px;border-bottom: 1px dotted gray;margin: 20px 0;margin-left: 5px;}
+#goods_list .goods1 p{float: left;}
+#goods_list .goods1 .p2 a{width: 66px;height: 66px;border: 1px solid gainsboro;display: inline-block;}
+#goods_list .goods1 .p2 a img{width: 64px;height: 64px;display: inline-block;margin: 1px;}
+#goods_list .goods1 .p1{width: 35px;height: 66px;text-align: center;line-height: 66px;}
+#goods_list .goods1 .p2{width: 66px;height: 66px;}
+#goods_list .goods1 .p3{width: 395px;height: 66px;float: left;}
+#goods_list .goods1 .p4{width: 405px;height: 66px;line-height: 66px;}
+#goods_list .goods1 .p4 .span1{padding-left: 55px;}
+#goods_list .goods1 .p4 input{margin-left: 60px;width: 60px;}
+#goods_list .goods1 .p4 .span2{padding-left: 55px;}
+#goods_list .goods1 .p4 .span3{padding-left: 32px;}
+
+#pay{width: 950px;margin: 0 auto;border: 1px solid gray;margin-top: 15px;font-size: 12px;height: 55px;}
+#app{width: 950px;margin: 0 auto;font-size: 12px;}
+
+
+
+#footer{width: 950px;height: 47px;margin:0 auto;font-size: 12px;}
+#footer div{width: 950px;height: 25px;border-top: 1px solid gainsboro;margin-top: 10px;text-align: center;line-height: 24px;}
+

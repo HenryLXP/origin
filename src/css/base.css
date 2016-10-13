@@ -1,0 +1,8 @@
+body{margin: 0;padding: 0;border: 0;}
+ul,li{list-style-type:none;margin:0;padding:0;border:0;}
+a{text-decoration: none;}
+a:hover {text-decoration:underline;}
+p{margin: 0;}
+h4,h3{margin: 0;}
+em,i{font-style: normal;}
+

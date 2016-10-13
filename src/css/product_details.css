@@ -1,0 +1,64 @@
+a{color: #72ACE3;}
+#your_position,#floor_introduce,#count .right,#tofind,#tofind2{font: 12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif;}
+#search_p3 a{color: white;}
+#wrap{width: 100%;height: 100%;}
+#your_position{width: 970px;height: 30px;margin: 0 auto;line-height: 30px;}
+#your_position span{position: relative;}
+#your_position input{color: gainsboro;}
+#your_position img{right: 5px;top: -1px;position: absolute;}
+
+#floor_introduce{padding-left:8px;width: 961px;height: 47px;border: 1px solid silver;margin: 0 auto;line-height: 47px;}
+.girl{background: #72ACE3;color: white;border-radius: 2px;}
+#floor_introduce span{margin-right: 15px;}
+#floor_introduce em{margin-right: 8px;}
+
+
+#count{width: 970px;height:31px ;margin: 0 auto;padding-top: 4px;}
+#count .left{width: 220px;height: 29px;float: left;position: relative;}
+#count .left span{width: 110px;height: 29px;text-align: center;line-height: 29px;display: inline-block;}
+#count .left .span1{border: 1px solid gainsboro;background: ghostwhite;}
+#count .left .span2{position:absolute;left:110px;top:0;border-top:1px  solid gainsboro;color: red;border-right:1px solid gainsboro ;}
+#count .right{width: 750px;height: 31px;float: right;border-bottom:1px solid gainsboro;text-align: right;}
+#count .right span{color: red;}
+#count .right i{color: gray;}
+#count .right em{display: inline-block;width: 19px;height: 18px;}
+#count .right .em1{background: gray;border: 1px solid gainsboro;background: url(img/ico_pro.png)no-repeat;margin: 0 5px;}
+#count .right .em2{border: 1px solid gainsboro;color: red;background: url(img/ico_pro.png)no-repeat -64px -1px;margin-right: 5px;}
+
+#tofind{width:970px;height: 27px;margin: 5px auto;background: ghostwhite;line-height: 27px;}
+#tofind .left{width: 252px;height: 27px;float: left;}
+#tofind .left ul li{float: left;display: inline-block;text-align: center;line-height: ;}
+#tofind .left span{line-height:19px;width: 49px;height: 19px;display: inline-block;border:1px solid gainsboro ;}
+#tofind .left i{background: url(img/ico_pro.png)no-repeat -68px -20px;width: 7px;height: 8px;display: inline-block;}
+#tofind .left .i2,#tofind .left .i3{background-position:-60px -20px;}
+#tofind .right{width: 502px;height: 27px;float: left;}
+#tofind .right input{width: 60px;}
+form input{display: inline-block;}
+#tofind .right .div1{width: 48px;height: 27px;float: left;}
+#tofind .right .div2{width: 250px;height: 27px;float: left;}
+
+#tofind2{width:970px;height: 18px;margin: 5px auto;}
+#tofind2 i{color: gainsboro;}
+#tofind2 a{display: inline-block;margin: 0 5px;}
+
+#goods_pt{width: 970px;height: 1983px;margin: 0 auto;overflow: hidden;}
+#goods_pt div{width:230px ;height: 260px;float: left;margin-right: 12px;margin-top: 20px;}
+#goods_pt p img{width: 216px;height: 162px;}
+#goods_pt p a{display: inline-block;border: 1px solid gainsboro;padding: 5px;}
+
+
+#page{width: 970px;height: 33px;margin: 0 auto;text-align: right;}
+#page .span1{width: 66px;height: 31px;border: 1px solid gainsboro;color: gray;}
+#page .span2{width: 33px;height: 31px;border: 1px solid gainsboro;background: red;color: white;}
+#page .span4{color: gray;}
+#page .span4 input{width: 32px;height: 22px;}
+#page a{width: 33px;height: 31px;border: 1px solid gainsboro;}
+#page .a6{width: 66px;height: 31px;border: 1px solid red;color: red;}
+#page .a7{width: 45px;height: 23px;border: 1px solid gainsboro;line-height: 23px;}
+#page .span1,#page .span2,#page a{text-align: center;line-height: 31px;}
+#page a,#page span{display: inline-block;}
+
+#footer{width: 970px;height: 47px;margin:0 auto;}
+#footer div{width: 970px;height: 25px;border-top: 1px solid gainsboro;margin-top: 10px;text-align: center;line-height:47px;font-size: 12px;color: gray;}
+#footer div a{color: gray;}
+

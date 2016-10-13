@@ -1,0 +1,213 @@
+
+
+#top a,#top{color: grey;}
+#top{width:100%;height: 30px;border-bottom: 1px solid gainsboro;}
+#top_warp{width: 970px;height: 31px;margin:0 auto;line-height: 30px;font-size: 12px;}
+#top_text{width: 138px;height: 30px;float: left;}
+#top_phone{background: url(img/ico_mob.jpg) no-repeat ;padding-left: 12px;}
+
+#top_weather{width: 127px;height: 30px;float: left;}
+#top_weather_img img{position: relative;top: 5px;}
+
+#top_item{width: 293px;height: 30px;float: right;float: right;}
+#top_item ul{width: 293px;height: 30px;clear: both;}
+
+#top_item #top_buyCar{width:76px ;height: 30px;text-align: center;}
+.top_buyCar_{background: url(img/ico_common.png) no-repeat;padding-left: 22px;}
+
+#top_item #top_user{width: 66px;height: 30px;text-align: center;background: url(img/ico_index_cloum.gif) no-repeat 0 10px;}
+#top_item #top_customerService{width: 66px;height: 30px;text-align: center;background: url(img/ico_index_cloum.gif) no-repeat 0 10px;position: relative;cursor: pointer;}
+/*客户服务logo*/
+.top_customerService_{position: relative;}
+#top_customerService i{width: 7px;height: 4px;position: absolute;left: 48px;display: none;}
+/*客户服务下面的box*/
+#top_item #top_customerService .khfw{z-index:9999999;width: 185px;height:118px;position: absolute;border: 1px solid ghostwhite;left: -129px;}
+#top_item #top_customerService .khfw #p1{border-bottom: 1px dashed gainsboro;width: 130px;height: 29px;}
+#top_item #top_customerService .khfw #p2{height: 24px;background: url(img/3a3fb177ab59c433e46146be377dfe4b.png)no-repeat 10px 2px;}
+#top_item #top_customerService .khfw #p2 span{position: absolute;left: 45px;top: 30px;}
+#top_item #top_customerService .khfw #p2 em{position: absolute;left: 45px;top: 45px;display:none;}
+#top_item #top_customerService .khfw #p3{height: 18px;background: url(img/3a3fb177ab59c433e46146be377dfe4b.png)no-repeat 10px -20px;position: relative;}
+#top_item #top_customerService .khfw #p3 span{position: absolute;left: 33px;top: -5px;}
+#top_item #top_customerService .khfw div{position: relative;width: 150px;padding-left: 12px;}
+
+
+#top_item #top_language_list{width: 76px;height: 30px;background: url(img/ico_index_cloum.gif) no-repeat 0 10px;padding-left: 6px;position: relative;cursor: pointer;}
+#top_item #top_language_list span{width: 65px;height: 18px;border: 1px solid gray;margin-top: 6px;line-height: 16px;display: block;letter-spacing: 3px;padding-left:3px}
+#top_item #top_language_list div{width: 67px; height: 18px;position: relative;margin-left: 5px;z-index: 999999}
+#top_item #top_language_list i{position: absolute;left: 60px;top: -6px;}
+#top_item #top_language_list ul{display: none;;background: ghostwhite;width: 70px;height: auto;}
+#top_item>ul>li{float: left;}
+
+.clean{clear: both!important;visibility: hidden;}
+
+#search{width:100%;height:72px;border-bottom: 1px solid red;z-index: 10000;}
+#To_search{width: 970px;height:72px;margin:0 auto;position: relative;}
+#search_logo{width: 290px;height: 72px;position: relative;float: left;}
+#search_logo a{position: absolute;top: 10px;}
+#search_logo span{height:35px;background: url(img/ico-search-no.jpg) no-repeat 34px 8px;position: absolute;top: 40px;left: 150px;width: 45px;} 
+#search_logo .active{background: url(img/ico-search-yes.jpg)no-repeat 34px 8px;}
+.fz{width: 322px;height: 333px;position: absolute;border: 1px solid gainsboro;top:72px;display: none;z-index: 9999;left: 145px;background: whitesmoke;}
+.fz h4{border-bottom: 1px solid gainsboro;}
+.fz #u1{width: 260px;height:120px;padding-left: 20px;}
+.fz #u1 li{float: left;width:45px;height:22px}
+.fz #u1 li span{width:45px;height:22px}
+.fz #u2{width:300px ;height:72px ;}
+.fz #u2 li{width: 300px;height: 72px;}
+
+#search_search{float: left;margin-top:18px;position: relative;width: 359px;height:32px;border: 2px solid red;}
+#search_search span{width: 70px;height: 36px;position: absolute;background: red;display: block;top: -2px;left: 361px;text-align: center;line-height: 37px;}
+#search_search #xiala{z-index:99999;background: url(img/ico-search-no.jpg)no-repeat  6px 15px;position: absolute;width:20px;height: 45px;left: 0;top: 0;}
+
+#search_search input{width:300px ;height:26px ;margin-left: 20px;}
+#search_search #search_pt{cursor:pointer;background: url(img/ico-imgsearch.png)no-repeat 7px;width: 35px;height:32px;position: absolute;left:324px ;}
+
+
+#xiala ul{display:none;background:url(img/case-search-top.png)no-repeat 2px 0px;position: absolute;top:36px;left:-15px;width: 70px;height: 64px;border-bottom: 1px solid gainsboro;border-left:1px solid gainsboro ;border-right:1px solid gainsboro ;}
+#xiala ul li{width:70px;height:21px;font-size: 14px;text-align: center;line-height: 21px;}
+
+#search_sign{position:relative;width: 200px;height: 19px;float: left;padding-left: 115px;padding-top: 35px;}
+#search_sign #land{position: relative;}
+#search_sign #land .span1 a{color: red;}
+#search_sign #land i{position:absolute;width: 25px;height: 25px;background: url(img/ico_top.png)no-repeat -55px 7px;position: absolute;left: -30px;top: -10px;}
+#search_sign #RankingList{position: absolute;left: 250px;}
+#search_sign #RankingList i{width:25px;height:25px;background: url(img/ico_top.png)no-repeat  -76px -55px;position: absolute;top: -5px;left: -25px;}
+
+#frame{width: 100%;height: 41px;border-bottom: 2px solid gainsboro;}
+#frame_warp{width: 970px;height: 49px;margin: 0 auto;}
+#frame_left{float: left;}
+#frame_left #homePage{width: 56px;height: 41px;background: orangered;color: white;}
+#frame_left #shops{width:92px ;height: 41px;position: relative;}
+#frame_left #shops i{width: 5px;height: 5px;position: absolute;top: -6px;}
+#frame_left #shops #shops_list{position: absolute;width: 256px;height: 651px;display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul{width: 256px;height: 651px;border: 1px solid red;}
+#frame_left #shops #shops_list .list_ul .list_li{ text-align: left;font-size:12px;position:relative;width: 235px;height: 59px;    margin-left: 10px;border-bottom: 1px dashed gray;}
+#frame_left #shops #shops_list .list_ul .list_li p{width: 255px;height: 20px;    line-height: 20px;}
+#frame_left #shops #shops_list .list_ul .list_li ul{left: 246px;top:0;position: absolute;width: auto;height:auto;font-size: 12px;border: 1px solid red;}
+#frame_left #shops #shops_list .list_ul .list_li ul li{font-size: 12px;text-align: left;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul1{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul2{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul3{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul4{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul5{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul6{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul7{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul8{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul9{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul10{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul11{display: none;z-index: 9999;background: white;}
+#frame_left #cheap{width: 73px;height: 41px;}
+#frame_left #forum{width: 56px;height: 41px;}
+#frame_left li{float: left;font-size: 16px;text-align: center;line-height: 41px;font-weight: bold;}
+#frame_right{position:relative;float: right;font-size: 12px;width: 597px;height: 40px;text-align: center;line-height: 40px;}
+#frame_right span{margin: 0 3px;width: auto;height: auto;}
+#frame_right #fire i{position: absolute;width: 10px;height: 10px;left: 32px;top: -5px;}
+#frame_right #list1{position: relative;}
+#frame_right #list1 img{padding-left: 5px;}
+#frame_right #list1 ul{position: absolute;width:55px;border: 1px solid gainsboro;left: -3px;display: none;z-index: 9999;background: white;}
+#frame_right span{height: 41px;display: block;float: left;padding-left: 4px;}
+#frame_right #list2{position: relative;}
+#frame_right #list2 img{padding-left: 5px;}
+#frame_right #list2 ul{border: 1px solid gainsboro;display: none;z-index: 99999;background: white;    position: absolute;}
+#frame_right #list2{position: relative;}
+#frame_right #list3 ul{display: none;border: 1px solid gainsboro;z-index: 999999;background: white;    position: absolute;}
+#frame_right #list3 img{padding-left: 5px;}
+
+
+#middle{width: 100%;height: auto;}
+#lunbo_pt{width: 970px;height: 221px;margin: 0 auto;padding-top: 7px;}
+#Trading_dynamics{width: 232px;height: 221px;font-size: 13px;float: left;}
+#dynamics{width: 230px;height: 113px;border: 1px solid gainsboro;overflow:hidden;}
+#dynamics h4{width: 210px;height: 24px;padding-top: 5px;padding-left: 5px;}
+#dynamics ul{width: 210px;height: 126px;}
+#dynamics ul li{margin: 5px;}
+#dynamics ul li i{width: 28px;height: 15px;display: block;float: left;}
+#bg1{background: url(img/ico_index.png);}
+#bg2{background: url(img/ico_index.png)69px 0px;}
+#bg3{background: url(img/ico_index.png)94px 0px;}
+#bg4{background: url(img/ico_index.png);}
+#bg5{background: url(img/ico_index.png)69px 0px;}
+#bg6{background: url(img/ico_index.png)94px 0px;}
+#problem{width: 230px;height: 70px;border-left: 1px solid gainsboro;border-right: 1px solid gainsboro;}
+#problem ul li{margin:5px ;padding-top: 3px;}
+#guarantee{width: 230px;height: 31px;border: 1px solid gainsboro;}
+#guarantee i{width: 19px;height: 18px;display: block;float: left;}
+#guarantee div{float: left;margin: 3px;padding-top: 8px;}
+#bg7{background:url(img/ico-cxg.png)}
+#bg8{background: url(img/ico-star.png)}
+
+#lunbo_pting{width: 456px;height:221px ;border: 1px solid gainsboro;float: left;position: relative;margin: 0 16px;}
+#lunbo_pting-ul1{width: 456px;height:221px }
+#lunbo_pting-ul1 li{position: absolute;width: 456px;height:221px }
+#lunbo_pting-ul2{width: 100px;height: 20px;position: absolute;top: 180px;right: 10px;}
+#lunbo_pting-ul2 li{cursor:pointer;width: 20px;height: 20px;float: left;background: greenyellow;text-align: center;line-height: 20px;margin: 0 5px;}
+
+#Market_dynamics{width: 245px;height:221px;border: 1px solid gainsboro;float: left;position: relative; font-size: 13px;}
+#Market_dynamics li{margin:9.5px 5px;}
+#Market_dynamics h4{padding-left: 5px;padding-top: 5px;}
+#Market_dynamics li #span2{margin-left: 5px;}
+#Market_dynamics div{position: absolute;width: 125px;height:15px;top: 5px;left: 110px;overflow: hidden;}
+#Market_dynamics div ul{width: 125px;height:48px;}
+#Market_dynamics div ul li{margin: 0;padding: 0;}
+#Market_dynamics-ul span{color: red;} 
+
+#Brand_introduction{width: 970px;height: 1414px;margin: 0 auto;}
+#Shop_goods{width: 707px;height: 1414px;padding-top: 2px;float: left;}
+#Shop_goods #goods_top{border-bottom: 2px solid gainsboro;width: 707px;height: 32px;line-height: 32px;}
+#goods_top-span1{font-weight: bold;}
+#goods_top-span4{color: red;}
+#goods_list{width: 707px;height: 124px;border-bottom: 1px solid gainsboro;overflow: hidden;}
+#goods_list p,#goods_list img{width: 230px;height: 90px;}
+#goods_list ul{width: 462px;height: 90px;}
+#goods_list ul li{font-size: 13px;margin: 8px;}
+#goods_list ul li em{display: inline;color: red;}
+#goods_list p,#goods_list ul{float: left;}
+#goods_list h3{width: 707px;height: 24px;}
+#brand_lg{width: 249px;height: 1414px;float: right;padding-top: 2px;}
+#brand_lg-top{width: 249px;height: 32px;border-bottom: 2px solid gainsboro;line-height: 32px;font-size: 13px;}
+#brand_lg-top i{width: 20px;height:32px;}
+#brand_lg-top i img{width: 14px;height: 14px;padding-left: 80px;} 
+#brand_lg-top span{font-weight: bold;}
+#brand_lg-count{width: 249px;height: 1374px;background: gainsboro;position: relative;}
+#count_ul{width: 249px;height: 1374px;}
+#count_ul li{float: left;margin: 5px;    padding-left: 3px;}
+#count_ul li img{width: 68px;height: 53px;}
+#brand_lg-count span{width: 249px;height: 33px;position: absolute;bottom: 10px;}
+#brand_lg-count span a{margin-left: 125px;}
+
+#shops_show{width: 970px;height: 251px;border: 1px solid gainsboro;margin: 0 auto;margin-top: 3px;font-size: 13px;}
+#shops_show-top{width: 930px;height: 32px;padding-top: 3px;padding-left: 5px;line-height: 32px;}
+#shops_show-top h3{float: left;}
+#shops_show-top span{float: left;}
+#shops_show-top #span3{float: right;}
+#shops_show-top #span3 i{width: 16px;height: 16px;background: url(img/ico_index.png)no-repeat -78px 0px;display: inline-block;}
+#shops_show-bt{width: 930px;height:196px ;padding-left: 5px;}
+#shops_show-bt div{float: left;}
+#shops_show-bt img{width: 170px;height: 130px;}
+#shops_show-bt #li2{width: 170px;height: 35px;}
+#shops_show-bt #li1{margin: 12px 0;}
+#shops_show-bt #rxsp{margin: 0 20px;}
+#shops_show-bt #zc{margin: 0 20px;}
+
+#area{width: 970px;height: 99px;margin:0 auto;padding-top: 8px;}
+#area1{width: 670px;height: 99px;float: left;}
+#area2{width: 270px;height: 99px;float: right;}
+
+#information{width: 970px;height: 155px;margin: 0 auto;border-bottom: 1px solid gainsboro;font-size: 13px;}
+#information ul{width: 102px;float: left;text-align: center;padding-top: 5px;}
+#information p{font-weight: bold;margin: 12px 0;}
+#information li{margin: 8px 0;}
+#information #sys{width: 307px;border-left: 1px dotted gainsboro;float: right;}
+#information #ul2,#information #ul4{margin: 0 60px;}
+#sys li {float: left;margin: 0;padding-left: 20px;}
+#sys li p{font-weight: normal;margin: 0;}
+#sys img{height: 120px;}
+
+#buttom{width: 970px;height: 125px;margin: 0 auto;font-size: 13px;}
+#buttom #ul1{width: 770px;height: 18px;text-align: center;line-height: 18px;margin: 10px 165px;}
+#buttom #ul2{width: 970px;height: 18px;text-align: center;line-height: 18px;margin: 10px 85px;}
+#buttom #ul1 li{float: left;padding-left: 10px;}
+#buttom #ul1 li a{padding-right: 10px;}
+#buttom #ul2 li{float: left;padding-left: 10px;}
+#buttom #ul2 li a{padding-right: 10px;}
+#buttom p {width: 970px;height: 18px;text-align: center;line-height: 18px;margin: 5px -15px;}
+#buttom div{width: 970px;height: 18px;text-align: center;line-height: 18px;margin: 5px -55px;}

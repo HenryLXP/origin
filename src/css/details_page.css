@@ -1,0 +1,134 @@
+
+#frame{width: 100%;height: 41px;border-bottom: 2px solid gainsboro;}
+#frame_warp{width: 970px;height: 49px;margin: 0 auto;}
+#frame_left{float: left;}
+#frame_left #homePage{width: 56px;height: 41px;}
+#frame_left #shops{width:92px ;height: 41px;position: relative;background: orangered;color: white;}
+#frame_left #shops i{width: 5px;height: 5px;position: absolute;top: -6px;background: white;}
+#frame_left #shops i img{background: white;}
+#frame_left #shops #shops_list{position: absolute;width: 256px;height: 651px;display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul{width: 256px;height: 651px;border: 1px solid red;}
+#frame_left #shops #shops_list .list_ul .list_li{ text-align: left;font-size:12px;position:relative;width: 235px;height: 59px;    margin-left: 10px;border-bottom: 1px dashed gray;}
+#frame_left #shops #shops_list .list_ul .list_li p{width: 255px;height: 20px;    line-height: 20px;}
+#frame_left #shops #shops_list .list_ul .list_li ul{left: 246px;top:0;position: absolute;width: auto;height:auto;font-size: 12px;border: 1px solid red;}
+#frame_left #shops #shops_list .list_ul .list_li ul li{font-size: 12px;text-align: left;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul1{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul2{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul3{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul4{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul5{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul6{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul7{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul8{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul9{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul10{display: none;z-index: 9999;background: white;}
+#frame_left #shops #shops_list .list_ul .list_li #list_li_ul11{display: none;z-index: 9999;background: white;}
+#frame_left #cheap{width: 73px;height: 41px;}
+#frame_left #forum{width: 56px;height: 41px;}
+#frame_left li{float: left;font-size: 16px;text-align: center;line-height: 41px;font-weight: bold;}
+#frame_right{position:relative;float: right;font-size: 12px;width: 597px;height: 40px;text-align: center;line-height: 40px;}
+#frame_right span{margin: 0 3px;width: auto;height: auto;}
+#frame_right #fire i{position: absolute;width: 10px;height: 10px;left: 32px;top: -5px;}
+#frame_right #list1{position: relative;}
+#frame_right #list1 img{padding-left: 5px;}
+#frame_right #list1 ul{position: absolute;width:55px;border: 1px solid gainsboro;left: -3px;display: none;z-index: 9999;background: white;}
+#frame_right span{height: 41px;display: block;float: left;padding-left: 4px;}
+#frame_right #list2{position: relative;}
+#frame_right #list2 img{padding-left: 5px;}
+#frame_right #list2 ul{border: 1px solid gainsboro;display: none;z-index: 99999;background: white;    position: absolute;}
+#frame_right #list2{position: relative;}
+#frame_right #list3 ul{display: none;border: 1px solid gainsboro;z-index: 999999;background: white;    position: absolute;}
+#frame_right #list3 img{padding-left: 5px;}
+
+body{font:12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif;}
+#botton{width: 970px;height: auto;margin: 0 auto;}
+#your_position{width: 970px;height: 18px;padding-top: 10px;}
+
+
+#notice{width: 230px;height: 473px;float: left;padding-top: 10px;}
+#shops_not,#shops_hos,#shops_ifm{border: 1px solid gray;}
+#shops_not{width: 230px;height: 135px;}
+#shops_ifm{width: 230px;height: 158px;margin: 15px 0;}
+#shops_ifm .span1{float: left;width: 60px;height: 100px;}
+#shops_ifm .span2{float: right;width: 170px;}
+#shops_hos{width: 230px;height: 156px;}
+#shops_hos li{margin: 10px 0;}
+#notice h3{width: 230px;height: 27px;background: ghostwhite;line-height: 27px;}
+#notice div{padding-left: 7px;}
+
+#details{width: 710px;height: auto;float: right;padding-top: 10px;}
+#details .details_top{width: 710px;height: 24px;}
+#details .details_top .left{width: 585px;height: 24px;float: left;}
+#details .details_top .right{width: 120px;height: 18px;float: right;position: relative;}
+#comeback{position: fixed;width: 52px;height: 52px;text-align: center;line-height: 52px;cursor: pointer;background: gray;color: white;right: 20px;}
+
+#buyCar_{width:710px;height: 478px;}
+#ckbox{position: absolute;width: 108px;height: 30px;font-size: 14px;right: 35px;background: gold;font-weight: bold;color: white;bottom: -130px;display: none;top: 520px;}
+#buyCar_ .pt{width: 350px;height: 465px;float: left;}
+#buyCar_ .pt .p1{width: 350px;height: 350px;position: relative;margin: 10px 0;}
+#buyCar_ .pt .p1 li{width: 200px;height: 210px;position:absolute;display: inline-block;}
+#buyCar_ .pt .p1 li img{width: 200px;height: 210px}
+#buyCar_ .pt .p2{width: 350px;height: 69px;margin: 15px 0;}
+#buyCar_ .pt .p2 li{width: 69px;height: 69px;border: 1px solid gray;display:inline-block;text-align: center;}
+#buyCar_ .pt .p2 li img{width: 55px;height: 63px;padding-top: 3px;}
+
+
+
+#buyCar_ .price{width:350px ;height: 457px;float: right;color:gray;}
+#buyCar_ .price .p1{width: 350px;height: 28px;background: ghostwhite;}
+#buyCar_ .price .p1 span{width: 150px;height: 28px;display: inline-block;margin-left: 15px;line-height: 28px;}
+#buyCar_ .price .p2{width: 350px;height: 31px;}
+#buyCar_ .price .p2 span{width: 150px;height: 31px;display: inline-block;margin-left: 15px;line-height: 31px;}
+#buyCar_ .price .p2 i{color: red;}
+#buyCar_ .price .p2 em{font-size: 19px;color: red;margin: 0 5px;}
+#buyCar_ .price .ul1{width: 350px;height: 197px;}
+#buyCar_ .price .ul1 li{width: 350px;height: 27px;}
+#buyCar_ .price .ul1 .itop{width: 78px;height: 27px;display: inline-block;margin-left: 15px;line-height: 27px;}
+#buyCar_ .price .ul1 .span2 a{color:gray ;display: inline-block;width: 57px;height: 22px;line-height:22px;border: 1px solid gray;}
+#buyCar_ .price .ul1 .span2 a img{padding-left: 15px;}
+#buyCar_ .price .ul1 .li2 em{color: red;}
+#buyCar_ .price .ul1 .li3 span,#buyCar_ .price .ul1 .li4 span,#buyCar_ .price .ul1 .li5 span,#buyCar_ .price .ul1 .li6 span{display: inline-block;width: 240px;height: 27px;border-bottom: 1px dashed gray;line-height: 27px;}
+#buyCar_ .price .ul1 .li3 em,#buyCar_ .price .ul1 .li4 em,#buyCar_ .price .ul1 .li5 em,#buyCar_ .price .ul1 .li6 em{cursor:pointer;display: inline-block;width: 16px;height: 15px;border: 1px solid gray;text-align: center;line-height: 16px;}
+#buyCar_ .price .ul1 .li3 span .i2,#buyCar_ .price .ul1 .li4 span .i2,#buyCar_ .price .ul1 .li5 span .i2,#buyCar_ .price .ul1 .li6 span .i2{display: inline-block;width: 67px;height: 24px;line-height: 24px;border: 1px solid gray;margin: 0 3px;text-align: right;}
+.padd1,.padd2,.padd3,.padd4{margin-left: 95px;}
+#buyCar_ .price table{position:relative;width: 350px;height: 126px;border: 1px solid gray;background: ghostwhite;}
+#buyCar_ .price table tr{width: 345px;height: 20px;display: inline-block;}
+#buyCar_ .price table td{width: 41px;height: 20px;display: inline-block;}
+#buyCar_ .price table .td4 {width: 100px;height: 20px;display: inline-block;}
+
+#buyCar_ .price table #zongjia{color: red;}
+
+
+#buyCar_ .price table .td2{width: 41px;height: 20px;border: 1px solid gray; }
+#buyCar_ .price table #buycar{display:inline-block;position: absolute;width: 150px;height: 38px;line-height:38px;text-align:center;cursor: pointer;background: coral;color: white;bottom: 15px;left: 95px;}
+#buyCar_ .price table #buycar td{width: 150px;height: 38px;}
+#buyCar_ .price table #buycar td a{font-size: 17px;}
+#yc_count{display: none;width: 350px;}
+#yc_count p{background: ghostwhite;}
+#number{padding-left: 60px;}
+#yc_count li{display: none;}
+#yc_count span{display:inline-block;width: 50px;}
+#yc_count li i{padding-left: 60px;display: inline-block;width: 60px;}
+#pt_ p{color: red;}
+#pt_ .ul1{width: 710px;height: 31px;padding-top: 10px;}
+#pt_ .li1{font-weight:bold;width: 92px;height:31px;background: ghostwhite;border: 1px solid coral;border-bottom: none;float: left;color: coral;text-align: center;line-height: 31px;}
+#pt_ .ul1 .li2{width: 616px;height: 31px;border-bottom: 1px solid coral;float: left;}
+#pt_ .ul1 .li2 a{display: inline-block;width: 92px;height:31px;margin-left: 10px;line-height: 31px;text-align: center;border: 1px solid gray;border-bottom: none;}
+#pt_ .p3_{width:710px ;height: 31px;color: black;border-bottom: 1px solid gray;}
+#pt_ .p3_ span{display: inline-block;width: 200px;height: 31px;line-height: 31px;}
+#pt_ .p3_ .p2{margin: 0 10px;}
+#pt_ .p11{width: 710px;height: 31px;margin-top: 15px;border-top: 1px solid gray;background: ghostwhite;color: black;font-weight: bold;line-height: 31px;margin-bottom: 10px;}
+
+#pt_ .lastul{width: 710px;height: 271px;}
+#pt_ .lastul li{width: 110px;height: 210px;float: left;border: none;background: none;margin-right: 10px;}
+#pt_ .lastul li .a1{display: inline-block;border: 1px solid gray;width: 110px;height: 110px;}
+#pt_ .lastul li a img{display: inline-block;padding: 3px;width:105px;height: 105px;}
+#pt_ .lastul .li2 p{color: gray;}
+
+#pt_ .lastul .li1 p,#pt_ .lastul li a{color: gray;}
+#pt_ .lastul .li1 span{color: red;}
+
+#footer{width: 970px;height: 47px;margin: 0 auto;}
+#footer div{width: 970px;height: 25px;border-top: 1px solid gainsboro;margin-top: 10px;text-align: center;line-height:47px;font-size: 12px;color: gray;}
+#footer div a{color: gray;}
+.clr{clear: both!important;visibility: hidden;}

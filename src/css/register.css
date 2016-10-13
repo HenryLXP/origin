@@ -1,0 +1,66 @@
+/*字体*/
+#top,#logo_right,#for_buyer,#for_households li{font: 12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif;}
+a,#logo_right,#register_top{color:gray;}
+#register_top{font-family: "微软雅黑";}
+
+#wrap_top{width:100%;height:30px;border-bottom: 1px solid gainsboro;}
+#top{width: 950px;height: 30px;margin: 0 auto;line-height: 30px;}
+#top_phone{background: url(img/ico_mob.jpg)no-repeat;padding-left: 10px;}
+#buy_car{background: url(img/ico_common.png)no-repeat;padding-left: 20px;}
+#top_left{float: left;}
+#top_right{float: right;}
+
+#wrap_bottom{width: 100%;height: 100%;}
+#homepage_logo{width: 950px;height: 80px;margin: 0 auto;}
+#logo_left{width: 280px;height: 80px;font-size: 24px;float: left;margin-top: 5px;position: relative;}
+#logo_left #zh{color: gray;margin-bottom: 20px;position: absolute;top: 10px;left: 130px;}
+#logo_right{width: 200px;height: 18px;float: right;padding-top: 35px;text-align: right;}
+
+#user_register{width: 950px;height: 558px;margin: 0 auto;}
+#register_top{width: 950px;height: 85px;font-size: 18px;}
+#register_top ul{width: 950px; height: 40px; border-bottom: 2px solid gray;position: relative;}
+#register_top li{width: 160px;height: 40px;float: left;}
+#register_top li span{line-height:24px;text-align:center;color:white;display: inline-block;width: 24px;height: 24px;border-radius: 50%;background: gray;}
+#register_top .li1 span{background: palevioletred;}
+#register_top .li1{position: absolute;left: 95px;border-bottom: 2px solid red;text-align: center;}
+#register_top .li2{padding-left: 20px;padding-left: 100px;margin-right: 100px;}
+
+#register_bt{width: 950px;height: 471px;border: 1px solid gainsboro;margin: 0 auto;}
+#for_buyer{width: 755px;height: 471px;position: relative;float: left;}
+#for_buyer ul{padding-top: 25px;}
+#for_buyer i{color: red;}
+#for_buyer .lb1{width: 120px;height: 34px;display: inline-block;text-align: right;}
+#for_buyer #lb{padding-left: 65px;}
+#li1 input,#li3 input,#li4 input{width: 240px;height: 34px;border-radius: 5px;}
+
+#li1,#li3,#li4 {position: relative;}
+#li1 .span1,#li3 .span1,#li4 span{background: url(img/ico_veri_caution.png)no-repeat;padding-left: 20px;display: none;width: 260px;height: 17px;position: absolute;top: 12px;left: 373px;}
+#li1 .span2,#li3 .span2{background: url(img/ico_veri_err.png)no-repeat;padding-left: 20px;position: absolute;top: 12px;left: 373px;display: none;width:260px ;height: 17px;}
+
+
+
+
+#li2 span a,#li5 a{color: #72ACE3;}
+#li1 input{background: url(img/ico-china.png)no-repeat 5px;text-indent:2em}
+#li3{position: relative;}
+#li3 .yzm{cursor: pointer; position:absolute;top: 5px;left: 265px;width: 96px;height: 26px;border: 1px solid white;border-radius: 5px;color: white;background: red;display: inline-block;text-align: center;line-height: 26px;}
+#li6 input{cursor: pointer; border:0;width: 240px;height: 35px;background: red;color: white;border-radius: 5px;}
+
+#li6{position: relative;}
+#li6 #loading{position: absolute;width: 256px;height: 100px;background: green;top: 60px;left: 124px;text-align: center;line-height: 50px;display: none;}
+
+
+#for_households{width: 192px;height: 471px;background: ghostwhite;position: relative;border-left: 1px solid gainsboro;float: left;}
+#buyer_pt{position: absolute;left: 60px;top: -10px;}
+#households_pt{position: absolute;left: 60px;top: -10px;}
+
+
+#ul1{width: 154px;height: 198px;border-bottom: 1px dotted gainsboro;margin-left: 10px;}
+#ul2{width: 154px;height: 189px;margin-left: 10px;}
+#ul1 .li1,#ul2 .li1{color: red;display: inline-block;margin: 10px 0;font-size: 14px;}
+#ul1 a,#ul2 #li6 a{margin:20px 25px;display: inline-block;width: 102px;height: 28px;border: 1px solid gainsboro;border-radius: 5px;text-align: center;line-height: 28px;}
+#ul1 li,#ul2 li{margin: 5px 0;}
+#ul2 li5 a{color: #72ACE3;}
+
+#footer{width: 950px;height: 47px;margin:0 auto;}
+#footer div{width: 950px;height: 25px;border-top: 1px solid gainsboro;margin-top: 10px;text-align: center;line-height: 24px;}

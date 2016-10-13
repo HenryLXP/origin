@@ -5,6 +5,9 @@
 		<title>登录</title>
 		<link type="text/css" rel="stylesheet" href="../css/login.css" />
 		<link type="text/css" rel="stylesheet" href="../css/base.css">
+		<script src="../../../ajax/js/jquery-1.12.0.js"></script>
+		<script src="../js/login.js"></script>
+		<script src="../js/base.js"></script>
 	</head>
 	<body>
 		<div id="login_top">
@@ -36,19 +39,21 @@
 					<form>
 						<h2>登录义乌购</h2>
 						<ul>
-							<li>
+							<li class="li1">
 								<label>账户名</label>
-								<input type="text" value="邮箱/会员帐号" class="input2"/>
+								<span id="tip_">邮箱/会员帐号</span>
+								<input type="text"  class="input2" id="user"/>
 							</li>
-							<li>
+							<li class="li2">
 								<label class="label2">密 码</label>
-								<input type="text" class="input1"/>
+								<input type="password" class="input1"/>
 							</li>
-							<li>
+							<li class="li3">
 								<label></label>
-								<input type="checkbox" />十天内免登陆
+								<input type="checkbox" id="check"/>十天内免登陆
 							</li>
 							<li class="li4">
+								<div id="welcome">欢迎来到义乌购</div>
 								<label></label>
 								<input type="button" value="登录" class="input3"/>
 								找回密码？

@@ -60,7 +60,7 @@ body{font:12px/1.5 tahoma,arial,"\5b8b\4f53",sans-serif;}
 #details .details_top{width: 710px;height: 24px;}
 #details .details_top .left{width: 585px;height: 24px;float: left;}
 #details .details_top .right{width: 120px;height: 18px;float: right;position: relative;}
-#comeback{position: fixed;width: 52px;height: 52px;text-align: center;line-height: 52px;cursor: pointer;background: gray;color: white;right: 20px;}
+#comeback{top:450px;position: fixed;width: 52px;height: 52px;text-align: center;line-height: 52px;cursor: pointer;background: gray;color: white;right: 20px;}
 
 #buyCar_{width:710px;height: 478px;}
 #ckbox{position: absolute;width: 108px;height: 30px;font-size: 14px;right: 35px;background: gold;font-weight: bold;color: white;bottom: -130px;display: none;top: 520px;}

@@ -133,7 +133,7 @@
 #guarantee i{width: 19px;height: 18px;display: block;float: left;}
 #guarantee div{float: left;margin: 3px;padding-top: 8px;}
 #bg7{background:url(img/ico-cxg.png)}
-#bg8{background: url(img/ico-star.png)}
+#bg8{background:url(img/ico-star.png) }
 
 #lunbo_pting{width: 456px;height:221px ;border: 1px solid gainsboro;float: left;position: relative;margin: 0 16px;}
 #lunbo_pting-ul1{width: 456px;height:221px }
@@ -145,7 +145,7 @@
 #Market_dynamics li{margin:9.5px 5px;}
 #Market_dynamics h4{padding-left: 5px;padding-top: 5px;}
 #Market_dynamics li #span2{margin-left: 5px;}
-#Market_dynamics div{position: absolute;width: 125px;height:15px;top: 5px;left: 110px;overflow: hidden;}
+#Market_dynamics div{position: absolute;width: 135px;height:15px;top: 5px;left: 110px;overflow: hidden;}
 #Market_dynamics div ul{width: 125px;height:48px;}
 #Market_dynamics div ul li{margin: 0;padding: 0;}
 #Market_dynamics-ul span{color: red;} 

@@ -2,7 +2,7 @@
 $(function(){
 	
 	
-	
+//	<!--中文下的div-->
 	$("#top_language_list").on("mouseenter",function(){
 		$("#top_language_list").find("ul").css(
 			{
@@ -13,6 +13,7 @@ $(function(){
 		}).on("mouseleave",function(){
 		$("#top_language_list").find("ul").css({"display":"none"})
 	})
+//	<!--客户服务div-->
 	$("#top_customerService").on("mouseenter",function(){
 		
 		$("#top_customerService").find("div").css(
@@ -23,7 +24,7 @@ $(function(){
 		)}).on("mouseleave",function(){
 		$("#top_customerService").find("div").css({"display":"none"})		
 	})
-		
+//		<!--搜索-->	
 		   
 	$("#search_logo").find("span").on("mouseenter",function(){
 		$("#search_logo").find("span").addClass("active");
@@ -33,6 +34,8 @@ $(function(){
 		$(".fz").css({"display":"none"})
 	})
 	
+//	<!--分站里面隐藏的div-->
+	
 	$(".fz").on("mouseenter",function(){
 		$("#search_logo").find("span").addClass("active");
 		$(".fz").css({"display":"block"})
@@ -41,44 +44,38 @@ $(function(){
 		$(".fz").css({"display":"none"})
 	})
 	
+//	搜索左边的下拉
 	$("#xiala").on("mouseenter",function(){
 		$("#xiala").find("ul").css({"display":"block"})
 	}).on("mouseleave",function(){
 		$("#xiala").find("ul").css({"display":"none"})
 	})
-	
-	$("#search_pt").on("mouseenter",function(){
-		var timer=setTimeout(function(){
-			$("#tip").css({"display":"block"})
-		},1000)
-	}).on("mouseleave",function(){
-		$("#tip").css({"display":"none"})
-	})
-	
+//	<!--商品商店下的div-->
 	$("#shops").on("mouseenter",function(){
 		
 		$("#shops_list").css({"display":"block"})
 	}).on("mouseleave",function(){
 		$("#shops_list").css({"display":"none"})	
 	})
-	
+//	商品商店下的div li
 	$(".list_li").on("mouseenter",function(){
 		$(this).find("ul").css({"display":"block"})
 	}).on("mouseleave",function(){
 		$(this).find("ul").css({"display":"none"})	
 	})
-	
+//	采购
 	$("#list1").on("mouseenter",function(){
 		$(this).find("ul").css({"display":"block"})
 	}).on("mouseleave",function(){
 		$(this).find("ul").css({"display":"none"})	
 	})
-	
+//	外贸服务
 	$("#list2").on("mouseenter",function(){
 		$(this).find("ul").css({"display":"block"})
 	}).on("mouseleave",function(){
 		$(this).find("ul").css({"display":"none"})	
 	})
+//	商铺服务
 	$("#list3").on("mouseenter",function(){
 		$(this).find("ul").css({"display":"block"})
 	}).on("mouseleave",function(){
@@ -128,7 +125,11 @@ $(function(){
 		index = $(this).index();
 		show();
 	})
-	
+	$("#lunbo_pting-ul2").find("li").on("mouseenter",function(){
+		clearInterval(timer)
+	}).on("mouseleave",function(){
+		timer = setInterval(animate,2000);
+	})
 	
 })
 

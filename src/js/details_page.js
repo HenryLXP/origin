@@ -41,8 +41,24 @@ $(function(){
 		
 	})
 
+	//回到顶部
+	var $comeback = $("#comeback");
+	$(window).scroll(function(){
+		var scrollTop = $(window).scrollTop();
 
-	
+		if (scrollTop>=500) {
+			$comeback.fadeIn();
+		}else{
+			$comeback.fadeOut();
+		}
+		
+	})
+	$comeback.on("click",function(){
+//			console.log(123)
+//          animate这个方法在火狐不起作用
+//			$("html body").animate({"scrollTop":"0"})   
+			$(window).scrollTop(0);
+	})
 	
 	
 	
@@ -267,9 +283,10 @@ $(function(){
 	var $buttom = $("#buycar").find("a");
 	var $ckbox = $("#ckbox");
 	$buttom.on("click",function(){
+		
 		var $aa2 = $("#aa2").html();
 		var $aa3 = $("#aa3").html();
-		var $aa4 = $("#aa4").html();
+		var $aa4 = $("#aa4").html(); 
 		var $aa1 = $("#aa1").html();
 		var aaa = parseInt($aa1)+parseInt($aa2)+parseInt($aa3)+parseInt($aa4)+1
 		//shuzi为table里面的数量
@@ -278,7 +295,14 @@ $(function(){
 		if (shuzi==0) {			
 			$ckbox.html("没有商品");
 		}else{
+			
+			//图片飞过去的效果；
+			console.log(123)
+			var boxx = $("#buyCar_").find(".pt");
+			var $zoom_pt = $("#zoom_pt");
+			$zoom_pt.clone().appendTo(boxx);
 			$ckbox.html("成功加入购物车");
+			
 			var d =new Date;
 			d.setDate(d.getDate()+10);
 			setCookie("cookname",$cookname.html(),d);

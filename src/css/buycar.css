@@ -35,7 +35,7 @@
 
 
 
-/*#box{width: 950px;height:auto;margin: 0 auto;border: 1px solid gray;font-size: 12px;text-align: center;line-height: 200px;font-size: 35px;background: darkgray;color: whitesmoke;}*/
+#box{width: 950px;height:auto;margin: 0 auto;border: 1px solid gray;font-size: 12px;text-align: center;line-height: 200px;font-size: 35px;background: darkgray;color: whitesmoke;}
 
 #goods_list{width: 950px;height: auto;margin: 0 auto;border: 1px solid gray;font-size: 12px; }
 

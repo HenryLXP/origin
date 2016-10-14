@@ -2,29 +2,17 @@ $(function(){
 	var $username = $("#user");
 	var $password = $(".li2").find("input");
 	
-	
 	var oldusername2 = getCookie("username2");
 	var oldpassword2 = getCookie("password2");
 	
-
 	if (oldusername2) {
 		$username.val(oldusername2);
 		$password.val(oldpassword2);
-	}
-	
-	
-	
-
-		var oldusername = getCookie("username");
-		var oldpassword = getCookie("password");
+	}	
 		
-		
+	var oldusername = getCookie("username");
+	var oldpassword = getCookie("password");
 	
-		
-	
-	
-	
-
 	
 	$(".li4").find("input").on("click",function(){
 		if ($username.val()==oldusername) {
